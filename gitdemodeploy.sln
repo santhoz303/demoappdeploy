@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gitdemodeploy.Server", "gitdemodeploy.Server\gitdemodeploy.Server.csproj", "{DF74252C-EE4A-4120-B367-321BC59FC8B8}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "gitdemodeploy.client", "gitdemodeploy.client\gitdemodeploy.client.esproj", "{3F2ADA02-96D4-4F42-9819-B302500DC4BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF74252C-EE4A-4120-B367-321BC59FC8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF74252C-EE4A-4120-B367-321BC59FC8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF74252C-EE4A-4120-B367-321BC59FC8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF74252C-EE4A-4120-B367-321BC59FC8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2ADA02-96D4-4F42-9819-B302500DC4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2ADA02-96D4-4F42-9819-B302500DC4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2ADA02-96D4-4F42-9819-B302500DC4BD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3F2ADA02-96D4-4F42-9819-B302500DC4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2ADA02-96D4-4F42-9819-B302500DC4BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2ADA02-96D4-4F42-9819-B302500DC4BD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45354817-2F29-4059-8E7E-B74A58FBBEE6}
+	EndGlobalSection
+EndGlobal

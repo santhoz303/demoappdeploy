@@ -1,0 +1,6 @@
+@gitdemodeploy.Server_HostAddress = http://localhost:5198
+
+GET {{gitdemodeploy.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
