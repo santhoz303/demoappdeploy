@@ -88,7 +88,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: '.'
+          path: /home/runner/work/demoappdeploy/demoappdeploy/gitdemodeploy.client/dist/gitdemodeploy.client/browser/index.html 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
