@@ -37,13 +37,13 @@ jobs:
       - name: publish project
         run: dotnet publish gitdemodeploy.Server  -c Release -o ./publish  
       - name: print directory
-        run: pwd 
+        run: pwd && ls /home/runner/work/demoappdeploy/demoappdeploy/gitdemodeploy.client/dist/gitdemodeploy.client
       
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
           name: YourArtifactName
-          path: gitdemodeploy.client/src/index.html   # Adjust this path to the file you want to deploy
+          path: /home/runner/work/demoappdeploy/demoappdeploy/gitdemodeploy.client/dist/gitdemodeploy.client   # Adjust this path to the file you want to deploy
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
