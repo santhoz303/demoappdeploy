@@ -42,8 +42,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: YourArtifactName
-          path: /home/runner/work/demoappdeploy/demoappdeploy/gitdemodeploy.client/dist/gitdemodeploy.client/browser/index.html   # Adjust this path to the file you want to deploy
+          name: github-pages
+          path: /home/runner/work/demoappdeploy/demoappdeploy/gitdemodeploy.client/dist/gitdemodeploy.client/browser/index.html  
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
